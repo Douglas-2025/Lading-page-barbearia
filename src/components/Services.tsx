@@ -20,7 +20,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, imageUrl,
       
       {/* Overlay with logo watermark */}
       <div className="absolute inset-0 flex items-center justify-center opacity-10">
-        <img src="/img/Asset 51.png" 
+        <img src="/img/l1.png" 
         alt="marcadagua" 
         className="w-23 h-23 object-contain"/>
       </div>
@@ -50,55 +50,55 @@ export const Services: React.FC = () => {
     {
       title: "Corte",
       description: "Corte moderno e personalizado, com acabamento preciso e uso de produtos profissionais.",
-      imageUrl: "/img/01.jpeg",
+      imageUrl: "/img/m13.JPG",
       price: "R$ 60,00"
     },
     {
       title: "Barba Completa",
       description: "Barba modelada com toalha quente, óleos especiais e técnicas de barbearia clássica.",
-      imageUrl: "/img/03.jpeg",
+      imageUrl: "/img/m14.JPG",
       price: "R$ 40,00"
     },
     {
       title: "Combo Corte + Barba + penteado",
       description: "Serviço completo com corte, barba e penteado, ideal para ocasiões especiais.",
-      imageUrl: "/img/11.jpg",
+      imageUrl: "/img/m17.JPG",
       price: "R$ 150,00"
     },
     {
       title: "Limpeza de pele",
       description: "Remoção de impurezas e revitalização facial com técnicas específicas para homens.",
-      imageUrl: "/img/02.jpeg",
+      imageUrl: "/img/m21.jpeg",
       price: "R$ 35,00"
     },
     {
       title: "Depilação nasal",
       description: "Eliminação dos pelos indesejados do nariz de forma rápida, segura e higiênica.",
-      imageUrl: "/img/15.png",
+      imageUrl: "/img/m5.jpeg",
       price: "R$ 30,00"
     },
     {
       title: "Selagem",
       description: "Tratamento capilar que reduz o frizz e proporciona brilho intenso aos fios.",
-      imageUrl: "/img/16.png",
+      imageUrl: "/img/m18.png",
       price: "R$ 120,00"
     },
     {
       title: "Combo Corte + Barba + Selagem",
       description: "Pacote premium com corte, barba e tratamento de selagem para um visual impecável.",
-      imageUrl: "/img/17.png",
+      imageUrl: "/img/m19.png",
       price: "R$ 200,00"
     },
     {
       title: "SOBRANCELHA",
       description: "Design de sobrancelhas alinhado ao formato do rosto para um visual harmonioso.",
-      imageUrl: "/img/12.png",
+      imageUrl: "/img/m20.png",
       price: "R$ 10,00"
     },
     {
       title: "SERVIÇOS EXTRAS",
       description: "Serviços adicionais como hidratação e depilação nazal",
-      imageUrl: "/img/13.png",
+      imageUrl: "/img/m23.png",
       price: "R$ 20,00"
     }
   ];

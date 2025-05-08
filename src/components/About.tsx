@@ -13,7 +13,7 @@ export const About: React.FC = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-[#00ff6a] to-[#00ff6a]/50 rounded-full blur opacity-75"></div>
               <div className="relative">
                 <img
-                  src="/img/Perfil.png"
+                  src="/img/Dark.png"
                   alt="Tiago Cândido"
                   className="rounded-full w-96 h-96 object-cover border-4 border-[#00ff6a]"
                 />

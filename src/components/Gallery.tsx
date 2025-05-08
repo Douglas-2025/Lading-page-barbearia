@@ -8,18 +8,18 @@ interface GalleryImage {
 
 export const Gallery: React.FC = () => {
   const images: GalleryImage[] = [
-    { imageUrl: "/img/1.png", alt: "Corte moderno" },
-    { imageUrl: "/img/2.JPG", alt: "Barba detalhada" },
-    { imageUrl: "/img/3.png", alt: "Finalização profissional" },
-    { imageUrl: "/img/img4p.png", alt: "Ambiente da barbearia" },
-    { imageUrl: "/img/img5p.png", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/6.JPG", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/7.JPG", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/11.jpg", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/15.png", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/16.png", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/17.png", alt: "Cliente satisfeito" },
-    { imageUrl: "/img/9.JPG", alt: "Produtos premium" }
+    { imageUrl: "/img/m1.jpeg", alt: "Corte moderno" },
+    { imageUrl: "/img/m2.png", alt: "Barba detalhada" },
+    { imageUrl: "/img/m3.jpeg", alt: "Finalização profissional" },
+    { imageUrl: "/img/m4.jpg", alt: "Ambiente da barbearia" },
+    { imageUrl: "/img/m5.jpeg", alt: "Cliente satisfeito" },
+    { imageUrl: "/img/m6.JPG ", alt: "corte 1" },
+    { imageUrl: "/img/m7.JPG", alt: "corte 2 " },
+    { imageUrl: "/img/m8.JPG", alt: "coerte 3 " },
+    { imageUrl: "/img/m9.jpg", alt: "corte 4 " },
+    { imageUrl: "/img/m10.png", alt: "corte 5 " },
+    { imageUrl: "/img/m11.jpeg", alt: "corte 6 " },
+    { imageUrl: "/img/m12.JPG", alt: "corte 7 " }
   ];
 
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
