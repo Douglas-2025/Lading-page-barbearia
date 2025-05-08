@@ -1,5 +1,6 @@
 import React from 'react';
 import { Scissors } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface ServiceCardProps {
   title: string;
@@ -31,14 +32,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, imageUrl,
         <p className="text-sm text-gray-300 mb-4">{description}</p>
         <div className="flex justify-between items-center">
           <span className="text-lg font-bold text-white">{price}</span>
-          <a 
-            href="/agendar" 
+         
+          <Link 
+            to="/agendar"
             className="bg-[#00ff6a] text-gray-900 py-1 px-4 rounded text-sm font-medium hover:bg-[#00dd5a] transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Agendar
-          </a>
+          </Link>
         </div>
       </div>
     </div>
