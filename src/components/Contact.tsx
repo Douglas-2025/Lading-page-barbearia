@@ -82,7 +82,7 @@ export const Contact: React.FC = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://www.salao99.com.br/huracan-barbearia"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#00ff6a] text-gray-900 font-bold py-3 px-6 rounded-lg text-center hover:bg-[#00dd5a] transition-colors"

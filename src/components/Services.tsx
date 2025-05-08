@@ -32,7 +32,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, imageUrl,
         <div className="flex justify-between items-center">
           <span className="text-lg font-bold text-white">{price}</span>
           <a 
-            href="https://www.salao99.com.br/huracan-barbearia" 
+            href="/agendar" 
             className="bg-[#00ff6a] text-gray-900 py-1 px-4 rounded text-sm font-medium hover:bg-[#00dd5a] transition-colors"
             target="_blank"
             rel="noopener noreferrer"

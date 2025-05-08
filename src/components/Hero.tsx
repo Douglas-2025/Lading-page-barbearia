@@ -24,14 +24,13 @@ export const Hero: React.FC = () => {
           Estilo, atitude e excelência em cada corte. Uma experiência única para homens que valorizam qualidade.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a
-            href="https://www.salao99.com.br/huracan-barbearia"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#00ff6a] text-gray-900 font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 hover:shadow-lg"
-          >
-            💈 AGENDAR AGORA
-          </a>
+        <a
+  href="/agendar"
+  className="inline-block bg-[#00ff6a] text-gray-900 font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 hover:shadow-lg"
+>
+  💈 AGENDAR AGORA
+</a>
+
           <a
             href="#services"
             className="inline-block bg-transparent text-white border-2 border-white font-bold py-3 px-8 rounded-full transition-all hover:bg-white hover:text-gray-900"
