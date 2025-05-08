@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4">
         
         <Link
-          to="/agendar"
+          to="/Agendar"
           className="inline-block bg-[#00ff6a] text-gray-900 font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 hover:shadow-lg"
         >
           💈 AGENDAR AGORA
