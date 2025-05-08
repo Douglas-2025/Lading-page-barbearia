@@ -2,6 +2,7 @@ import React from 'react';
 import { Scissors } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+
 interface ServiceCardProps {
   title: string;
   description: string;
@@ -34,7 +35,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, imageUrl,
           <span className="text-lg font-bold text-white">{price}</span>
          
           <Link 
-            to="/agendar"
+            to="/Agendar"
             className="bg-[#00ff6a] text-gray-900 py-1 px-4 rounded text-sm font-medium hover:bg-[#00dd5a] transition-colors"
           >
             Agendar
