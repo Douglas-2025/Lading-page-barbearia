@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Hero: React.FC = () => {
   return (
@@ -24,12 +25,13 @@ export const Hero: React.FC = () => {
           Estilo, atitude e excelência em cada corte. Uma experiência única para homens que valorizam qualidade.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-        <a
-  href="/agendar"
-  className="inline-block bg-[#00ff6a] text-gray-900 font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 hover:shadow-lg"
->
-  💈 AGENDAR AGORA
-</a>
+        
+        <Link
+          to="/agendar"
+          className="inline-block bg-[#00ff6a] text-gray-900 font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 hover:shadow-lg"
+        >
+          💈 AGENDAR AGORA
+        </Link>
 
           <a
             href="#services"
