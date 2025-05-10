@@ -34,7 +34,7 @@ const About: React.FC = () => {
              Tiago Cândido é um verdadeiro exemplo de dedicação e crescimento. Chegou a Porto Velho há 5 anos com um objetivo simples, mas poderoso: transformar vidas por meio da arte do corte de cabelo. Começou como barbeiro, aprimorando suas habilidades e conquistando cada cliente com excelência e estilo.
             </p>
             <p className="text-gray-400 mb-8">
-             Tiago Cândido é um verdadeiro exemplo de dedicação e crescimento. Chegou a Porto Velho há 5 anos com um objetivo simples, mas poderoso: transformar vidas por meio da arte do corte de cabelo. Começou como barbeiro, aprimorando suas habilidades e conquistando cada cliente com excelência e estilo.
+              Hoje, Tiago não é apenas um barbeiro, mas um empresário de sucesso e referência no mercado de barbearias. É o fundador da Huracan Barbearia, um espaço inovador que une tradição e modernidade. Seu conhecimento e experiência o levaram a se destacar também como palestrante e mentor, ministrando cursos e workshops para outros profissionais da área.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
