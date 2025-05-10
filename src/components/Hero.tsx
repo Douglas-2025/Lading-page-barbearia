@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       id="hero"
       className="relative h-screen flex items-center justify-center"
       style={{
-        backgroundImage: 'url(/img/salão.png)',
+        backgroundImage: 'url(/img/salao.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

@@ -34,7 +34,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="text-2xl font-bold flex items-center">
-          <img src="/img/logo2.png" alt="logo" width={50}/>
+          <img src="/img/logo2.jpg" alt="logo" width={50}/>
             <span className="text-white">Huracan</span>
             <span className="text-[#00ff6a]">Barbearia</span>
           </Link>

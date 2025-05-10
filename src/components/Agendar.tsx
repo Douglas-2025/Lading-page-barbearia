@@ -130,14 +130,16 @@ _Agendado via sistema_`;
       });
       enviarWhatsApp();
 
-      setFormData({
-        nome: '',
-        telefone: '',
-        servico: '',
-        data: '',
-        hora: '',
-        observacao: ''
-      });
+      const formatarData = (dataString: string) => {
+  const [ano, mes, dia] = dataString.split('-').map(Number);
+  const dataLocal = new Date(ano, mes - 1, dia); // mês começa em 0
+  return dataLocal.toLocaleDateString('pt-BR', {
+    weekday: 'long',
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric'
+  });
+};
     } catch (error) {
       const mensagemErro = error instanceof Error ? error.message : 'Erro inesperado.';
       setMensagem({ texto: mensagemErro, tipo: 'erro' });

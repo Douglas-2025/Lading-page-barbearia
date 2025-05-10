@@ -13,7 +13,7 @@ const About: React.FC = () => {
               
               {/* Imagem principal */}
               <img 
-                src="/img/5.png" 
+                src="/img/5.jpg" 
                 alt="Barbearia interior" 
                 className="relative z-10 rounded-lg shadow-xl w-full h-[650px] object-cover"
               />

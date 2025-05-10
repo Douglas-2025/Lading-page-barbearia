@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           {/* Logo and info */}
           <div className="mb-8 md:mb-0 max-w-sm">
             <div className="flex items-center mb-4">
-              <img src="/img/logo2.png" alt="logo" width={50}/>
+              <img src="/img/logo2.jpg" alt="logo" width={50}/>
               <span className="ml-2 text-2xl font-bold">
                 HURACAN <span className="text-[#00ff6a]">BARBEARIA</span>
               </span>

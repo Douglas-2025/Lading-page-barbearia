@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 
 const Gallery: React.FC = () => {
   const images = [
-    '/img/trabalho1.png',
-    '/img/trabalho2.png',
-    '/img/trabalho3.png',
-    '/img/trabalho4.jpeg',
-    '/img/trabalho5.png',
-    '/img/trabalho6.jpeg',
-    '/img/trabalho7.png',
-    '/img/trabalho8.jpg',
-    '/img/trabalho9.png',
-    '/img/trabalho10.png',
-    '/img/trabalho11.JPG',
-    '/img/trabalho12.jpeg',
+    '/img/corte_barba_penteado.jpg',
+    '/img/trabalho_2.jpg',
+    '/img/trabalho_3.jpg',
+    '/img/trabalho_4.jpg',
+    '/img/trabalho_5.jpg',
+    '/img/corte_barba_selagem.jpg',
+    '/img/trabalho_7.jpg',
+    '/img/trabalho_8.jpg',
+    '/img/trabalho_9.jpg',
+    '/img/trabalho_10.jpg',
+    '/img/trabalho_11.jpg',
+    '/img/trabalho_12.jpg',
     ,
   ];
 

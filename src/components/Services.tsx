@@ -21,7 +21,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, imageUrl,
       
       {/* Overlay with logo watermark */}
       <div className="absolute inset-0 flex items-center justify-center opacity-10">
-        <img src="/img/l1.png" 
+        <img src="/img/l1.jpg" 
         alt="Logo da barbearia" 
         className="w-23 h-23 object-contain"/>
       </div>
@@ -55,43 +55,43 @@ const Services: React.FC = () => {
     {
       title: "Barba Completa",
       description: "Barba modelada com toalha quente, óleos especiais e técnicas de barbearia clássica.",
-      imageUrl: "/img/barbacompeta.jpg",
+      imageUrl: "/img/barba_completa.jpg",
       price: "R$ 40,00"
     },
     {
       title: "Combo Corte + Barba + penteado",
       description: "Serviço completo com corte, barba e penteado, ideal para ocasiões especiais.",
-      imageUrl: "/img/cortebarbapenteado.JPG",
+      imageUrl: "/img/corte_barba_penteado.jpg",
       price: "R$ 150,00"
     },
     {
       title: "Limpeza de pele",
       description: "Remoção de impurezas e revitalização facial com técnicas específicas para homens.",
-      imageUrl: "/img/limpezadepele.jpg",
+      imageUrl: "/img/limpeza_de_pele.jpg",
       price: "R$ 35,00"
     },
     {
       title: "Depilação nasal",
       description: "Eliminação dos pelos indesejados do nariz de forma rápida, segura e higiênica.",
-      imageUrl: "/img/depilacaonasal.JPG" ,
+      imageUrl: "/img/depilacao_nasal.jpg" ,
       price: "R$ 30,00"
     },
     {
       title: "Selagem",
       description: "Tratamento capilar que reduz o frizz e proporciona brilho intenso aos fios.",
-      imageUrl: "/img/selage.jpg",
+      imageUrl: "/img/selagem.jpg",
       price: "R$ 120,00"
     },
     {
       title: "Combo Corte + Barba + Selagem",
       description: "Pacote premium com corte, barba e tratamento de selagem para um visual impecável.",
-      imageUrl: "/img/cortebarbaselagem.JPG",
+      imageUrl: "/img/corte_barba_selagem.jpg",
       price: "R$ 200,00"
     },
     {
       title: "SOBRANCELHA",
       description: "Design de sobrancelhas alinhado ao formato do rosto para um visual harmonioso.",
-      imageUrl: "/img/sombrancelhas.JPG",
+      imageUrl: "/img/sombracelhas.jpg",
       price: "R$ 10,00"
     },
     {
